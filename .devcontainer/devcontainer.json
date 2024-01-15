@@ -9,7 +9,13 @@
                 "ms-vscode.live-server",
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.cmake-tools"
-            ]
+            ],
+            "settings": {
+                "cmake.sourceDirectory": "/workspaces/pico-c-sandbox/pico/pico-examples"
+            }
         }
+    },
+    "containerEnv": {
+        "PICO_SDK_PATH": "/workspaces/pico-c-sandbox/pico/pico-sdk"
     }
 }
