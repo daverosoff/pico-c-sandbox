@@ -2,5 +2,14 @@
     "image":"mcr.microsoft.com/devcontainers/universal:2",
     "hostRequirements": {
         "storage": "16gb"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.live-server",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools"
+            ]
+        }
     }
 }
